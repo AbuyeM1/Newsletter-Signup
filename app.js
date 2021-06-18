@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "abuye:7a0e801ef4fa6a2a8472710c30c8c243-us6",
+    auth: "name:7a0e801ef4fa6a2a8472710c30c8c243-us6",
   };
   const request = https.request(url, options, function (response) {
     if (response.statusCode === 200) {
